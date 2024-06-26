@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* DEBUT ENTETE */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #FFB400; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: black;
+}
+
+
+.profile-title {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.nav ul li a:hover {
+    color: #000;
+}
+/* FIN ENTETE */
+
+
+/* CORPS DEBUT */
+#titre{
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 3em;
+}
+.Projets {
+    display: flex;
+    justify-content: flex-start; /* Aligne les éléments au début */
+    align-items: center; /* Centre les éléments verticalement */
+    padding: 20px; /* Ajustez la valeur selon vos besoins */
+    margin: 80px;
+}
+
+.texte {
+   /* flex: 1;  Prend tout l'espace disponible */
+    margin-right: 20px; /* Espace entre le texte et l'image */
+    border: 2px solid black;
+    padding: 50px;
+    width: 50%;
+}
+
+.profile {
+    flex-shrink: 0; /* Empêche l'image de se réduire */
+}
+
+.profile-image {
+    width: 300px;
+    max-width: 300px;
+    display: block;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Styles supplémentaires pour l'apparence */
+h1#name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+hr {
+    width: 50%;
+    border-top: 2px solid #333; /* Couleur et épaisseur de la ligne */
+    margin: 0 auto; /* Espacement au-dessus et en dessous de la ligne */
+}
+
+/* FIN CORPS */
+/* DEBUT footer */
+h3{
+    color: #13c3ba;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section:last-child {
+    margin-right: 0;
+}
+
+.footer-section p a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-section p a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.mail:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+/* FIN footer */
