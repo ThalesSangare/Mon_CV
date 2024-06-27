@@ -15,7 +15,7 @@ header {
   background: #fff;
   z-index: 999;
   padding-block: 10px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.3);
 }
 
 .header-logo {
@@ -60,14 +60,13 @@ header {
 }
 /* FIN ENTETE */
 
-/* DEBUT CORPS */
+/* ======== DEBUT CORPS ========== */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 10px;
   padding: 20px;
   background: #fff;
   box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.3);
@@ -101,16 +100,19 @@ header {
 .Salut {
   font-size: 5em;
   font-weight: bold;
+  font-family: Cambria;
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: bold;
+  font-family: Cambria;
 }
 
 p {
   font-size: 1em;
   color: #333;
+  font-family: Cambria;
 }
 
 .buttons {
@@ -162,6 +164,7 @@ p {
 }
 .boxed h2 {
   text-align: center;
+  font-family: Cambria;
 }
 .flex {
   display: flex;
@@ -169,8 +172,8 @@ p {
 
 .w25 {
   width: 25%;
-  border: 2px solid black;
   margin: 10px;
+  box-shadow: 2px 2px 2px 2px #c8c8c8;
 }
 .wm100 {
   width: 100% !important;
@@ -193,12 +196,6 @@ p {
   text-align: center;
 }
 
-/* REALISATION */
-
-.section {
-  padding: 100px 0;
-}
-
 .wrap {
   /* PERMET DE DIRE SI YA PLUSIEUR TU MET CE QUI PEUT ETRE SUR UNE LIGNE ET LA SUITE A LA LIGNE SUIVANTE */
   flex-wrap: wrap;
@@ -217,46 +214,6 @@ p {
 }
 .wm47 {
   width: 47%;
-}
-.realisation {
-  height: auto;
-  aspect-ratio: 1/1;
-  position: relative;
-}
-.realisation h3 {
-  /* CENTRER LE TEXTE EN FONCTION DE SA DIV */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  width: max-content;
-  /* POUR MASQUE LE TEXTE ,,, ET L'AFFICHER LE TRUC PASSE A 1*/
-  opacity: 0;
-  transition: 0.4s ease;
-}
-.realisation a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: #fff;
-}
-.realisation img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(40%);
-  transition: 0.4s ease;
-}
-.realisation:hover img {
-  filter: brightness(60%);
-}
-.realisation:hover h3 {
-  opacity: 1;
-}
-.text-center {
-  text-align: center;
 }
 
 /* FIN CORPS */
@@ -323,6 +280,7 @@ h3 {
 
 .pied-content {
   text-align: center;
+  font-family: Rockwell;
 }
 
 /* FIN footer */
