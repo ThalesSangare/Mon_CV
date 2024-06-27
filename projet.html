@@ -1,85 +1,108 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleProjet.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleProjet.css" />
     <title>Mes Projets</title>
-</head>
-<body>
-    <header class="header">
-        <div class="profile">
-            <span class="profile-dot"></span>
-            <div class="profile-info">
-                <a href="index.html" class="profile-name">Kabinet Sangaré</a>
-                <span class="profile-title">Developpeur</span>
-            </div>
+  </head>
+  <body>
+    <header>
+      <div class="boxed">
+        <div class="flex aligncenter space-between">
+          <button onclick="openMenu()" class="header-menu-mobile">
+            <span class="material-icons">menu</span>
+          </button>
+          <a href="index.html" class="header-logo"> Kabinet Sangaré </a>
+          <ul class="header-menu">
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="projet.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-        <nav class="nav">
-            <ul>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="projet.html">Projets</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      </div>
     </header>
-    <h1 id="titre">Projets</h1>
+    <div class="titre">
+      <h1>Projets</h1>
+    </div>
     <div class="Projets">
-        <div class="texte">
-            <h1 id="name">Nom du projet</h1>
-            <p>Presentation du projets et blabla Presentation du projets et blabla Presentation du projets et blabla Presentation du projets et blabla Presentation du projets et blabla.</p>
-        </div>
-            <div class="profile">
-                <img src="image/logo.jpg" alt="Photo de profil" class="profile-image">
-            </div>
+      <div class="texte">
+        <h1 id="name">Nom du projet</h1>
+        <p>
+          Presentation du projets et blabla Presentation du projets et blabla
+          Presentation du projets et blabla Presentation du projets et blabla
+          Presentation du projets et blabla.
+        </p>
+      </div>
+      <div class="profile">
+        <img src="image/logo.jpg" class="profile-image" />
+      </div>
     </div>
 
     <div class="Projets">
-        <div class="texte">
-            <h1 id="name">Nom du projet</h1>
-            <p>Presentation du projets et blabla Presentation du projets et blabla Presentation du projets et blabla Presentation du projets et blabla Presentation du projets et blablas.</p>
-        </div>
-            <div class="profile">
-                <img src="image/caffab.jpg" alt="Photo de profil" class="profile-image">
-            </div>
+      <div class="texte">
+        <h1 id="name">Nom du projet</h1>
+        <p>
+          Presentation du projets et blabla Presentation du projets et blabla
+          Presentation du projets et blabla Presentation du projets et blabla
+          Presentation du projets et blablas.
+        </p>
+      </div>
+      <div class="profile">
+        <img src="image/caffab.jpg" class="profile-image" />
+      </div>
     </div>
 
     <div class="Projets">
-        <div class="texte">
-            <h1 id="name">Nom du projet</h1>
-            <p>Presentation du projets et blabla Presentation du projets et blabla Presentation du projets et blabla Presentation du projets et blabla Presentation du projets et blabla.</p>
-        </div>
-            <div class="profile">
-                <img src="image/hacker.png" alt="Photo de profil" class="profile-image">
-            </div>
+      <div class="texte">
+        <h1 id="name">Nom du projet</h1>
+        <p>
+          Presentation du projets et blabla Presentation du projets et blabla
+          Presentation du projets et blabla Presentation du projets et blabla
+          Presentation du projets et blabla.
+        </p>
+      </div>
+      <div class="profile">
+        <img src="image/hacker.png" class="profile-image" />
+      </div>
     </div>
-     <!-- Pied de page -->
-     <footer class="footer">
-        
-        <div class="footer-section">
-            <h3>Téléphone</h3>
-            <p>+32 466 186 924</p>
-        </div>
-        <div class="footer-section">
-            <h3>E-mail</h3>
-            <p><a href="mailto:sangarekabinet7@gmail.com">sangarekabinet7@gmail.com</a></p>
-        </div>
-        <div class="footer-section">
-            <h3>Suivez-moi</h3>
-            <p>
-                <a href="https://www.instagram.com/thales_gallagher7" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/thales_gallagher7" target="_blank">Instagram</a>
-            </p>
-        </div>
-        <div class="footer-section">
-            <p><a href="#">Politique de confidentialité</a></p>
-            <p><a href="#">Mentions légales</a></p>
-            <p><a href="#">Politique de cookies</a></p>
-        </div>
-        <div class="footer-section">
-            <p>&copy; Mai 2024 - Thales Sangaré</p>
-        </div>
+
+    <!-- Pied de page -->
+    <div class="footer">
+      <div class="footer-section">
+        <h3>Téléphone</h3>
+        <p class="telephone">+32 466 186 924</p>
+      </div>
+      <div class="footer-section">
+        <h3>E-mail</h3>
+        <p>
+          <a href="mailto:sangarekabinet7@gmail.com"
+            >sangarekabinet7@gmail.com</a
+          >
+        </p>
+      </div>
+      <div class="footer-section">
+        <h3>Suivez-moi</h3>
+        <p>
+          <a href="https://www.facebook.com/kabinet.sangare.1" target="_blank"
+            >Facebook</a
+          >
+          <a href="https://www.instagram.com/thales_gallagher7" target="_blank"
+            >Instagram</a
+          >
+        </p>
+      </div>
+      <div class="footer-section">
+        <p><a href="#">Politique de confidentialité</a></p>
+        <p><a href="#">Mentions légales</a></p>
+        <p><a href="#">Politique de cookies</a></p>
+      </div>
+    </div>
+
+    <footer class="pied">
+      <div class="pied-content">
+        <p>&copy; Mai 2024 - Thales Sangaré</p>
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>
