@@ -64,10 +64,6 @@ header {
   max-width: 1280px;
   margin-inline: auto;
 }
-.boxed h2 {
-  text-align: center;
-  font-family: Cambria;
-}
 .flex {
   display: flex;
 }
@@ -78,8 +74,9 @@ header {
 
 .container {
   width: 60%;
-
-  margin: 50px auto;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -107,6 +104,7 @@ h1 {
 
 .form-section {
   width: 45%;
+  margin-right: 50px;
 }
 
 label {
@@ -208,27 +206,40 @@ h3 {
     text-align: left;
   }
 
-  .profile {
-    margin-bottom: 0;
+  h1 {
+    margin-top: 50px;
+    font-size: 4em;
   }
+}
 
-  .profile-image {
-    width: 300px;
-    height: 300px;
-  }
-
-  .intro {
-    margin-left: 40px;
+@media (min-width: 501px) {
+  .container {
+    flex-direction: row;
+    text-align: left;
   }
 
   h1 {
-    font-size: 4em;
+    margin-top: 50px;
+    font-size: 3em;
   }
+}
 
-  .button {
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    margin: 0 10px;
+@media (max-width: 576px) {
+  .boxed {
+    margin-right: 10px;
+  }
+  .header-logo {
+    font-size: 1em;
+    margin-left: 20px;
+  }
+  h1 {
+    font-size: 2em;
+    margin-top: 50px;
+  }
+  .text-section {
+    display: none;
+  }
+  .form-section {
+    margin-left: 20%;
   }
 }

@@ -25,7 +25,7 @@ header {
   font-family: lato;
   font-weight: bolder;
   font-size: 2rem;
-  color: #000;
+  color: #333;
 }
 
 .header-logo img {
@@ -78,25 +78,26 @@ header {
 
 /* CORPS DEBUT */
 .titre {
-  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 150px;
   margin-left: 20%;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
 }
 .Projets {
   display: flex;
   justify-content: flex-start; /* Aligne les éléments au début */
   align-items: center; /* Centre les éléments verticalement */
   padding: 20px; /* Ajustez la valeur selon vos besoins */
-  margin: 80px;
+  margin-left: 80px;
 }
 
 .texte {
   /* flex: 1;  Prend tout l'espace disponible */
   margin-right: 20px; /* Espace entre le texte et l'image */
-  border: 2px solid black;
   padding: 50px;
   width: 50%;
+  box-shadow: 2px 2px 2px 2px #c8c8c8;
 }
 
 .profile {
@@ -185,3 +186,33 @@ h3 {
 }
 
 /* ========== FIN footer ==============*/
+
+@media (max-width: 700px) {
+  .header-logo {
+    font-size: 1em;
+    margin-left: 20px;
+  }
+  .titre {
+    font-family: "Roboto", sans-serif;
+    margin-top: 130px;
+    margin-bottom: -40px;
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  .Projets {
+    display: flex;
+    justify-content: flex-start; /* Aligne les éléments au début */
+    align-items: center; /* Centre les éléments verticalement */
+    margin-left: 20px;
+  }
+
+  .texte {
+    box-shadow: 2px 2px 2px 2px #c8c8c8;
+    width: 600px;
+  }
+
+  .profile {
+    display: none;
+  }
+}
