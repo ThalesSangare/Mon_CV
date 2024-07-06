@@ -187,7 +187,7 @@ h3 {
 
 /* ========== FIN footer ==============*/
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .header-logo {
     font-size: 1em;
     margin-left: 20px;

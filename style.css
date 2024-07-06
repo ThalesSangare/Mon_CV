@@ -303,6 +303,8 @@ h3 {
 /* FIN footer */
 
 /* Media Queries */
+
+/* ========================== */
 @media (min-width: 768px) {
   .container {
     flex-direction: row;
@@ -335,18 +337,12 @@ h3 {
 }
 
 /* =================MAX 500 ========================== */
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .intro {
     width: 100%;
-    border: 1px solid black;
   }
-  /* .presentation {
-      width: ;
-      border: 1px solid black;
-    } */
   .presentation p {
     font-size: 1.3em;
-    color: red;
   }
   .profile .profile-image {
     display: none;
@@ -359,12 +355,5 @@ h3 {
     height: 100px;
     line-height: 100px;
     margin: 0 10px;
-  }
-}
-
-/* ======== MAX 768 ========== */
-@media (max-width: 768) {
-  .flex2 {
-    display: block;
   }
 }
