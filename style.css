@@ -333,3 +333,38 @@ h3 {
     margin: 0 10px;
   }
 }
+
+/* =================MAX 500 ========================== */
+@media (max-width: 500px) {
+  .intro {
+    width: 100%;
+    border: 1px solid black;
+  }
+  /* .presentation {
+      width: ;
+      border: 1px solid black;
+    } */
+  .presentation p {
+    font-size: 1.3em;
+    color: red;
+  }
+  .profile .profile-image {
+    display: none;
+  }
+  .flex2 {
+    display: block;
+  }
+  .button {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 10px;
+  }
+}
+
+/* ======== MAX 768 ========== */
+@media (max-width: 768) {
+  .flex2 {
+    display: block;
+  }
+}
